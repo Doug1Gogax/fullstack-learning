@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: planeja-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: planeja_db
+      POSTGRES_USER: planeja_user
+      POSTGRES_PASSWORD: planeja_dev_2026
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
