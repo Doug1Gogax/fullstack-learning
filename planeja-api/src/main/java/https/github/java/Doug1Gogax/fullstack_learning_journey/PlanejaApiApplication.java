@@ -1,4 +1,4 @@
-package https.github.com.Doug1Gogax.fullstack_learning_journey;
+package https.github.java.Doug1Gogax.fullstack_learning_journey;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,4 +11,3 @@ public class PlanejaApiApplication {
 	}
 
 }
- 
